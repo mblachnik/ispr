@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<operatorHelp lang="en_EN">
+    <operator>
+        <name>My k-NN</name>
+        <synopsis>Classification with k-NN based on an explicit similarity
+            measure.
+        </synopsis>
+        <help>A k nearest neighbor implementation.</help>
+        <key>my_k_nn</key>
+    </operator>
+
+    <operator>
+        <name>LVQ</name>
+        <synopsis>LVQ algorithm</synopsis>
+        <help>
+            This operator implements a set of different LVQ algorithms. It can be used for instance optimization for nearest neighbor classifier. 
+                &lt;br/&gt;
+            For details see: 
+                &lt;br/&gt;
+            Kohonen T., Self-Organizing Maps, Springer Verlag, 2001 
+                &lt;br/&gt;
+            It also implements an WLVQ algorithm described in:
+                &lt;br/&gt;
+            Blachnik M., Duch W., LVQ algorithm with instance weighting for generation of prototype-based rules, Neural Networks vol 24(8), Elsevir, pp. 824-830 2011
+        </help>
+                
+        <key>lvq</key>
+    </operator>
+    <operator>
+        <name>VQ</name>
+        <synopsis>VQ algorithm</synopsis>
+        <help>
+            This operator implements VQ clustering algorithm. It can be used for instance optimization and clustering. 
+                &lt;br/&gt;
+            For details see: 
+                &lt;br/&gt;
+            Kohonen T., Self-Organizing Maps, Springer Verlag, 2001                                 
+        </help>                
+        <key>vq</key>
+    </operator>
+    
+    <operator>
+        <key>FlattenClustersByDistance</key>
+        <class>com.rapidminer.ispr.operator.clustering.FlattenByDistanceClusterModel</class>
+        <replaces>FlattenClustersByDistance</replaces>
+    </operator>
+  
+    <operator>
+        <name>Flatten Clusters By Distance</name>
+        <synopsis>Flatten Clusters By Distance</synopsis>
+        <help>Similar to Flatten Clustering it cuts the dendrogram but instead of setting the number of clusters here it is based on setting the similarity threshold between clusters</help>
+        <key>FlattenClustersByDistance</key>
+    </operator>
+    
+    <operator>
+        <name>Random selection</name>
+        <synopsis>Random instances selection</synopsis>
+        <help>Random selects given number of instance from the training set</help>
+        <key>random_sel</key>
+    </operator>
+
+    <operator>
+        <name>CNN selection</name>
+        <synopsis>Condensed Neares Neighbor instance selection</synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Hart P.E., The condensed nearest neighbor rule., IEEE Trans. on Information Theory, vol. 16, pp. 515-516, 1968 
+        </help>
+        <key>cnn_sel</key>
+    </operator>
+
+    <operator>
+        <name>IB2 selection</name>
+        <synopsis>IB2 instance selection</synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Acha D., Kibler D., Albert M, Instance-Based Learning Algorithms., Machine Learning, vol.6, pp. 37-66, 1991
+        </help>
+        <key>ib2_sel</key>
+    </operator>
+    
+    <operator>
+        <name>IB3 selection</name>
+        <synopsis>IB3 instance selection</synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Acha D., Kibler D., Albert M, Instance-Based Learning Algorithms., Machine Learning, vol.6, pp. 37-66, 1991
+        </help>
+        <key>ib3_sel</key>
+    </operator>
+        
+    <operator>
+        <name>ENN selection</name>
+        <synopsis>Edited Neares Neighbor instance selection</synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Wilson D.L., Assymptotic properties of nearest neighbour rules using edited data., IEEE Trans. on Systems, Man, and Cybernetics, Computational Intelligence, SMC-2, pp. 408-421, 1972
+        </help>
+        <key>enn_sel</key>
+    </operator>
+
+    <operator>
+        <name>RENN selection</name>
+        <synopsis>Repeated Edited Neares Neighbor instances selection</synopsis>
+        <help>For details see:
+        &lt;br/&gt;
+            Tomek I., An experiment with the edited nearest-neighbor rule., IEEE Trans. on Systems, Man, and Cybernetics, vol. 6, pp. 448-452, 1976
+        </help>
+        <key>renn_sel</key>
+    </operator>
+  
+    <operator>
+        <name>All-kNN selection</name>
+        <synopsis>All kNN instances selection</synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Tomek I., An experiment with the edited nearest-neighbor rule., IEEE Trans. on Systems, Man, and Cybernetics, vol. 6, pp. 448-452, 1976
+        </help>
+        <key>all_knn_sel</key>
+    </operator>
+	
+    <operator>
+        <name>GE selection</name>
+        <synopsis>Instance selection based on Gabriel Graph Editing </synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Binay K. Bhattacharya, Ronald S. Poulsen, Godfried T. Toussaint,  "Application of Proximity Graphs to Editing Nearest Neighbor Decision Rule",  International Symposium on Information Theory, Santa Monica, 1981.
+        </help>
+        <key>ge_sel</key>
+    </operator>
+    
+    <operator>
+        <name>RNG selection</name>
+        <synopsis>Instance selection based on Relative Neighbor Graph Editing </synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Godfried T. Toussaint, The Relative Neighborhood Graph of a Finite Planar Set, Pattern Recognition, vol.12, No.4, pp.261-268, 1980
+        </help>
+        <key>rng_sel</key>
+    </operator>
+
+    <operator>
+        <name>RMHC selection</name>
+        <synopsis>Instance selection based on Random Mutation Hill Climbing </synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            
+        </help>
+        <key>rmhc_sel</key>
+    </operator>
+
+    <operator>
+        <name>MC selection</name>
+        <synopsis>Instance selection based on Monte Carlo sampling </synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            
+        </help>
+        <key>mc_sel</key>
+    </operator>
+    <!--
+<operator>
+    <name>IB3 selection</name>
+    <synopsis>IB3 instances selection</synopsis>
+    <help>IB3 selection</help>
+    <key>ib3_sel</key>
+</operator>  
+    -->
+    <operator>
+        <name>ELH selection</name>
+        <synopsis>ELH instances selection</synopsis>
+        <help>ELH selection</help>
+        <key>elh_sel</key>
+    </operator>
+    
+    <operator>
+        <name>Weka IS selection</name>
+        <key>weka_sel</key>
+        <synopsis>Weka instances selection</synopsis>
+        <help>Instance Selection Algorithms from IS Library ...</help>
+    </operator>
+    
+    <operator>
+        <name>Generalized ENN</name>
+        <synopsis>GENN instances selection</synopsis>
+        <help>GENN selection</help>
+        <key>genn_sel</key>
+    </operator>
+    
+    <operator>
+        <name>Generalized CNN</name>
+        <synopsis>Generalized Condensed Neares Neighbor instance selection</synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            
+        </help>
+        <key>gcnn_sel</key>
+    </operator>
+  
+    <operator>
+        <name>Infosel feature ranker</name>
+        <synopsis>Infosel feature ranker</synopsis>
+        <help>Feature selection based on Infosel++ library, for detaitls see: www.prules.org. This library was written in C++, and this operator is 
+            a wrapper for that library. It requires to define name of the feature selection algorithm and its parameters. 
+            For estimation of probability dystribution it requires discrete values so the input set discretised by this library with one
+            of build in methods. All the parameters are given as strings because this allows to keep this library open for new algorithms 
+            implemented init.         
+        </help>
+        <key>infosel_featsel</key>
+    </operator>
+
+    <operator>
+        <name>Feature weights transformer</name>
+        <synopsis>Feature weights transformer</synopsis>
+        <help>This operator is used to transform feature weights. After passing this transformer features which should be present 
+            have weights equals 1, and features which should be removed have weights equal 0. 
+        &lt;br/&gt;
+            It was designed because Infosel++ returns feature order, such that 
+            each feature has assigned natural number, and this number represents its importance. However these numbers are whithout 
+            any information if they are ordered from the most relevant to the least one or in the oposit order. The order 
+            depends on the algorithm. For example mi_mi retunrs higher values for more relevant features.                
+        </help>
+        <key>featsel_weightsmodifier</key>
+    </operator>
+    <!--
+    <operator>
+          <name>Feature Selection Operator</name>
+          <synopsis>Feature Selection Operator</synopsis>
+          <help>Feature Selection Operator</help>
+          <class>com.rapidminer.ispr.operator.learner.feature.selection.FeatureSelectionOperator</class>
+          <key>featsel_model</key>
+    </operator>
+    -->
+    <operator>
+        <name>FCM</name>
+        <synopsis>Fuzzy c-Means </synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Bezdek J.C., Pattern Recognition with Fuzzy Objective Function Algorithms, Plenum, New York, 1981 
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.optimization.FCMOperator</class>
+        <key>FCM</key>
+    </operator>
+    
+    <operator>
+        <name>CFCM</name>
+        <synopsis>Conditional Fuzzy c-Means </synopsis>
+        <help>For details see: 
+        &lt;br/&gt;
+            Pedrycz W., Conditional Fuzzy C-Means, Pattern Recognition Letters, Vol. 17(6), 1996
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.optimization.CFCMOperator</class>
+        <key>CFCM</key>
+    </operator>
+
+    <operator>
+        <name>Class assigner</name>
+        <synopsis>Assigns appropriate class label for a set of prototype instances.</synopsis>
+        <help>This operator determine class label for each instance delivered to the Prototypes input based 
+            on the frequency of labels of the nearest instances from the ExampleSet input. 
+        &lt;br/&gt;
+            Usually it is used for assigning label to the prototypes obtained from clustering process.            
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.misc.ClassAssignerOperator</class>
+        <key>ClassAssigner</key>
+    </operator>
+    
+    <operator>
+        <name>Class iterator</name>
+        <synopsis>Iterates over each class label of an example set </synopsis>
+        <help> This operator iterates over each value of class label of input example set, allowing to applay 
+            instance processing method (ex. clastering) to each class independent. Finally all example sets delivered 
+            to the output are combined such that the output Prototypes containes concatenation of all instances delivered to the internal output.
+            If attribute subset is not consistent then output set contains all possible attributes, and missing values are set to NaN.
+            &lt;br/&gt;
+            Typically it is used to cluster each subset of instances from certain class and then delivering results as a single example set.
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.misc.ClassIteratorOperator</class>
+        <key>ClassIterator</key>
+    </operator>  
+    
+    <operator>
+        <name>ENN Weighting</name>
+        <synopsis>Instance Weighting</synopsis>
+        <help> 
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.weighting.ENNWeightingOperator</class>
+        <key>ENNWeighting</key>
+    </operator> 
+    <operator>
+        <name>Weight Transformation</name>
+        <synopsis>Weight Transformation</synopsis>
+        <help> 
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.weighting.AttributeTransformation</class>
+        <key>WeightTransformation</key>
+    </operator> 
+    <!--
+    <operator>
+        <name>Values Difference</name>
+        <synopsis>For selected attributes it calculates a difference between vollowing neighbor values</synopsis>
+        <help> 
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.misc.ValueDifferenceOperator</class>
+        <key>ValueDifference</key>
+    </operator>       
+    <operator>
+        <name>Values Shift</name>
+        <synopsis>For selected attributes it shifts values from previous to new position</synopsis>
+        <help> 
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.misc.ValuesShiftOperator</class>
+        <key>ValuesShift</key>
+    </operator>       
+    -->
+    <operator>
+        <name>Export Process</name>
+        <synopsis>Export the process to a file or a repository</synopsis>
+        <help> 
+            This operator makes a copy of the xml process description to a given location. It is a specialy usefull when you run multiple experiments with different modifications, so you can store not only the results log but automatically the corresponding process description. So it is simmilar to Auto-Save As where you can specify the location of the process.
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.misc.ProcessExportOperator</class>                
+        <key>ExportProcess</key>
+    </operator>  
+    <operator>
+        <name>Group Distance</name>
+        <synopsis>Calculate the distance between group of examples</synopsis>
+        <help> 
+            This operator splits the input exampleSet according to the "grouping attribute", then it calculates the distance between each of the groups. The
+            distance between groups is calculated as the average of the distance between two closes examples in each group. The returned exampleset is a square matrix 
+            however it is not symetric, because it is calculated ina way where it takes each exampe from one group and finds closest example in the second group. So it
+            is possible that group A will be mre similar to group B then group B is similar to group A. For example it may happen when examples in group A are a
+            subset of examples in group B.
+        </help>
+        <class>com.rapidminer.ispr.operator.learner.misc.GroupDistanceOperator</class>                
+        <key>GroupDistance</key>
+    </operator> 
+    <operator>
+        <synopsis>Delivers as logging value input object ID</synopsis>
+        <help> 
+            This operator is used to get acces for the log operator to the ID value of the IOObject.
+
+            In some cases it is important to identify the model, which returned certain results. For example when using X-Validation (parallel ) operator it is impossible to combine results logged on the training and test side. By using prediction model ID you can collect logs on the training side and testing side and then join them together.
+        </help>
+        <name>Get ID</name>
+        <key>InputID</key>
+        <class>com.rapidminer.ispr.operator.learner.misc.GetIOModelID</class>                
+    </operator> 
+    <operator>
+        <key>is_performance</key>
+        <class>com.rapidminer.ispr.operator.performance.InstanceSSelectionPerformance</class>
+        <name>IS Performance</name>
+        <synopsis>Calculate various IS performances</synopsis>
+        <help> 
+            This operator gets two ExampleSet's as input and calculates various statistics related to the instance selection problems. These are size_difference - a difference between sizes of both example sets (the value is abs), relative_size_difference - size_difference divided by the size of the first example set, compression - calculated as the ration of example set sizes
+        </help>
+    </operator>  
+    <operator>
+        <key>cluster_performance</key>
+        <class>com.rapidminer.ispr.operator.performance.ClusteringMinimumVarianceCriterion</class>
+        <name>Cluster Performance</name>
+        <synopsis>Calculate cluster variance  performances</synopsis>
+        <help> 
+            This operator is used to analyze the performance of the clustering methods. It gets set of cluster prototypes and  ExampleSet's as input, and calculates the variance within clusters - the same as is used in k-means clustering
+        </help>
+    </operator>  
+    <operator>
+        <key>bagging_sel</key>
+        <name>Bagging IS</name>
+        <class>com.rapidminer.ispr.operator.learner.selection.meta.ISMetaBaggingOperator</class>
+        <synopsis>Meta Instance Selection based on Bagging</synopsis>
+        <help>This operator implements bagging instance selection. It repeates instance selectin process given number of times and for each example calculates average number of times example was selected. This average may be grater then 1 because it uses sampling with replacement so it is possible that single vector may be selected more often then the number of iterations. The number of times given vector was selected depends on the ID in the output set of the subprocess. So if all vectors will be delivered to the output all vectors will be selected (according to the bootstrap distribution)</help>
+    </operator>
+    
+    <operator>
+        <key>vote_sel</key>
+        <name>Voted IS</name>
+        <class>com.rapidminer.ispr.operator.learner.selection.meta.ISMetaVoteOperator</class>
+        <synopsis>Meta Instance Selection based on Voting</synopsis>
+        <help></help>
+    </operator>
+    
+    <operator>
+        <key>RndFeature_sel</key>
+        <name>Meta - Random Features IS</name>
+        <class>com.rapidminer.ispr.operator.learner.selection.meta.ISMetaRndFeatureOperator</class>
+        <synopsis>Meta Instance Selection based on Random Features</synopsis>
+        <help>
+            This meta operator for instance selection utilize the random features principle to support divergence of the model.
+            This algorithm repeats instance selection process, and in each iteration a subset of features (ratio defines the percentage of features to be select) is selected  and delivered to the input of the process. According to the selected instances  in each iteration a ranking is made, such that the weight represents the number of times given instance was returned by the instance selection subprocess. The threshold parameter allows to manipulate the popularity of selected instances. If the "return weight" option is selected instead of selecting the instances a weight attribute is returned. As in input to that process this operator requires ExampleSet with ID attribute.
+        </help>
+    </operator>   
+        
+    <operator>
+        <key>meta_noise_sel</key>
+        <name>Meta - Nois IS</name>
+        <class>com.rapidminer.ispr.operator.learner.selection.meta.ISMetaNoisOperator</class>
+        <synopsis>Meta Instance Selection based on additive Gaussian Noise</synopsis>
+        <help>      
+        </help>
+    </operator>   
+    
+</operatorHelp>

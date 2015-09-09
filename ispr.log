@@ -1,0 +1,293 @@
+cze 28, 2015 3:10:07 PM com.rapidminer.tools.ParameterService init
+INFO: Reading configuration resource com/rapidminer/resources/rapidminerrc.
+Jun 28, 2015 3:10:07 PM com.rapidminer.tools.I18N <clinit>
+INFO: Set locale to en.
+Jun 28, 2015 3:10:07 PM com.rapid_i.Launcher ensureRapidMinerHomeSet
+INFO: Property rapidminer.home is not set. Guessing.
+Jun 28, 2015 3:10:07 PM com.rapid_i.Launcher ensureRapidMinerHomeSet
+INFO: Trying parent directory of 'D:\Marcin\Projects\Java\Common\RapidMiner\5.x\RapidMiner\lib\rapidminer.jar'...gotcha!
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Neuroph
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: PRules
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: RM_Tools
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Weka
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: VISUALIZATIONS
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: SOM
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Feature-Selection-Extension
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Anomaly Detection
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: PRules
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+WARNING: Duplicate plugin definition for plugin rmx_prules in D:\Marcin\Projects\Java\Common\RapidMiner\5.x\RapidMiner\lib\plugins\rapidminer-PRules-5.2.007.jar and d:\Marcin\Projects\Java\Common\home\.RapidMiner5\managed\rmx_prules-5.2.6.jar. Keeping the first.
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Parallel Processing
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Text Processing
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Web Mining
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Reporting
+Jun 28, 2015 3:10:08 PM com.rapidminer.tools.plugin.Plugin registerPlugins
+INFO: Register plugin: Series
+Jun 28, 2015 3:10:15 PM com.rapidminer.tools.expression.parser.ExpressionParserFactory <clinit>
+INFO: Default version of expression parser registered successfully
+Jun 28, 2015 3:10:19 PM com.rapidminer.parameter.ParameterTypePassword decryptPassword
+WARNING: Password in XML file looks like unencrypted plain text.
+Jun 28, 2015 3:10:20 PM com.rapidminer.tools.math.similarity.DistanceMeasureHelper updateMeasure
+WARNING: While updating distance measure: com.rapidminer.parameter.UndefinedParameterError: A value for the parameter 'measure_types' must be specified! Expected integer but found 'null'.
+Jun 28, 2015 3:10:20 PM com.rapidminer.tools.math.similarity.DistanceMeasureHelper updateMeasure
+WARNING: While updating distance measure: com.rapidminer.parameter.UndefinedParameterError: A value for the parameter 'measure_types' must be specified! Expected integer but found 'null'.
+Jun 28, 2015 3:10:20 PM com.rapidminer.tools.math.similarity.DistanceMeasureHelper updateMeasure
+WARNING: While updating distance measure: com.rapidminer.parameter.UndefinedParameterError: A value for the parameter 'measure_types' must be specified! Expected integer but found 'null'.
+Jun 28, 2015 3:10:20 PM com.rapidminer.tools.math.similarity.DistanceMeasureHelper updateMeasure
+WARNING: While updating distance measure: com.rapidminer.parameter.UndefinedParameterError: A value for the parameter 'measure_types' must be specified! Expected integer but found 'null'.
+Jun 28, 2015 3:10:24 PM com.rapidminer.tools.OperatorService init
+INFO: Number of registered operator classes: 713; number of registered operator descriptions: 775; number of replacements: 589
+Jun 28, 2015 3:10:25 PM com.rapidminer.tools.jdbc.JDBCProperties <init>
+WARNING: Missing database driver class name for ODBC Bridge (e.g. Access)
+Jun 28, 2015 3:10:25 PM com.rapidminer.tools.jdbc.JDBCProperties registerDrivers
+INFO: JDBC driver ca.ingres.jdbc.IngresDriver not found. Probably the driver is not installed.
+Jun 28, 2015 3:10:25 PM com.rapidminer.tools.jdbc.JDBCProperties registerDrivers
+INFO: JDBC driver oracle.jdbc.driver.OracleDriver not found. Probably the driver is not installed.
+Jun 28, 2015 3:10:28 PM com.rapidminer.gui.tools.SwingTools createImage
+FINE: Cannot load image {0}: icon will not be displayed.
+Jun 28, 2015 3:10:28 PM com.rapidminer.gui.tools.SwingTools createImage
+FINE: Cannot load image {0}: icon will not be displayed.
+Jun 28, 2015 3:10:28 PM com.rapidminer.gui.tools.SwingTools createImage
+FINE: Cannot load image {0}: icon will not be displayed.
+Jun 28, 2015 3:10:28 PM com.rapidminer.gui.tools.SwingTools createImage
+FINE: Cannot load image {0}: icon will not be displayed.
+Jun 28, 2015 3:10:28 PM com.rapidminer.gui.tools.SwingTools createImage
+FINE: Cannot load image {0}: icon will not be displayed.
+Jun 28, 2015 3:10:29 PM com.rapidminer.gui.tools.ResourceAction addToActionMap
+FINE: Cannot add action save_building_block to input map: no accelerator defined.
+Jun 28, 2015 3:10:29 PM com.rapidminer.gui.tools.ResourceAction addToActionMap
+FINE: Cannot add action save_building_block to input map: no accelerator defined.
+Jun 28, 2015 3:10:29 PM com.rapidminer.gui.tools.ResourceAction addToActionMap
+FINE: Cannot add action toggle_all_breakpoints to input map: no accelerator defined.
+Jun 28, 2015 3:10:29 PM com.rapidminer.gui.tools.ResourceAction addToActionMap
+FINE: Cannot add action toggle_all_breakpoints to input map: no accelerator defined.
+Jun 28, 2015 3:10:29 PM com.rapidminer.gui.tools.SwingTools createImage
+FINE: Cannot load image {0}: icon will not be displayed.
+Jun 28, 2015 3:10:29 PM com.rapidminer.gui.OperatorDocToHtmlConverter convert
+FINER: Failed to load documentation, using online fallback. Reason: xmlStream is null.
+Jun 28, 2015 3:10:29 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:29 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:29 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter logverbosity is not set. Using default (init).
+Jun 28, 2015 3:10:29 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter logfile is not set. Using default ().
+Jun 28, 2015 3:10:29 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:29 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.gui.ApplicationPerspectives loadAll
+CONFIG: Loading perspectives.
+Jun 28, 2015 3:10:30 PM com.rapidminer.gui.Perspective load
+FINE: Loading perspective: design
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter logverbosity is not set. Using default (init).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter logfile is not set. Using default ().
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter resultfile is not set. Using default ().
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter random_seed is not set. Using default (2001).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter encoding is not set. Using default (SYSTEM).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter parallelize_main_process is not set. Using default (false).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.gui.Perspective load
+FINE: Loading perspective: result
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:30 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter send_mail is not set. Using default (never).
+Jun 28, 2015 3:10:31 PM com.rapidminer.gui.Perspective load
+FINE: Loading perspective: welcome
+Jun 28, 2015 3:10:31 PM com.rapidminer.tools.I18N getMessage
+FINE: Missing I18N key: gui.action.workspace_My perspective.label
+Jun 28, 2015 3:10:31 PM com.rapidminer.gui.Perspective load
+FINE: Loading perspective: My perspective
+Jun 28, 2015 3:10:32 PM com.rapid_i.deployment.update.client.UpdateManager$3 run
+INFO: Checking for updates.
+Jun 28, 2015 3:10:36 PM com.rapid_i.deployment.update.client.UpdateManager$3 run
+WARNING: Error checking for updates: com.rapidminer.deployment.client.wsimport.UpdateServiceException_Exception: Illegal platform name: ${platform}
+com.rapidminer.deployment.client.wsimport.UpdateServiceException_Exception: Illegal platform name: ${platform}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:135)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy32.getLatestVersion(Unknown Source)
+	at com.rapid_i.deployment.update.client.UpdateManager$3.run(UpdateManager.java:870)
+	at com.rapidminer.gui.tools.ProgressThread$2.run(ProgressThread.java:200)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter measure_types is not set. Using default (MixedMeasures).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter measure_types is not set. Using default (MixedMeasures).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter measure_types is not set. Using default (MixedMeasures).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter measure_types is not set. Using default (MixedMeasures).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter measure_types is not set. Using default (MixedMeasures).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:54 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:10:55 PM com.rapidminer.gui.OperatorDocToHtmlConverter convert
+FINER: Failed to load documentation, using online fallback. Reason: xmlStream is null.
+Jun 28, 2015 3:10:55 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter logfile is not set. Using default ().
+Jun 28, 2015 3:10:55 PM com.rapidminer.parameter.Parameters getParameterOrNull
+FINER: Parameter resultfile is not set. Using default ().
+Jun 28, 2015 3:13:29 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter logfile is not set. Using default ().
+Jun 28, 2015 3:13:29 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter resultfile is not set. Using default ().
+Jun 28, 2015 3:13:29 PM com.rapidminer.tools.WrapperLoggingHandler log
+INFO: No filename given for result file, using stdout for logging results!
+Jun 28, 2015 3:13:29 PM com.rapidminer.Process run
+INFO: Process //Test Repository/glvq_test starts
+Jun 28, 2015 3:13:29 PM com.rapidminer.Process loadInitialData
+INFO: Loading initial data.
+Jun 28, 2015 3:13:30 PM com.rapidminer.example.table.MemoryExampleTable addAttribute
+FINE: Resizing example table from 58 to 69 columns.
+Jun 28, 2015 3:13:51 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter comparator_class is not set. Using default ().
+Jun 28, 2015 3:14:12 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter comparator_class is not set. Using default ().
+Jun 28, 2015 3:14:12 PM com.rapidminer.Process saveResults
+INFO: Saving results.
+Jun 28, 2015 3:14:12 PM com.rapidminer.Process run
+INFO: Process //Test Repository/glvq_test finished successfully after 42 s
+Jun 28, 2015 3:14:12 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter criterion is not set. Using default ().
+Jun 28, 2015 3:14:12 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter criterion is not set. Using default ().
+Jun 28, 2015 3:14:23 PM com.rapidminer.gui.OperatorDocToHtmlConverter convert
+FINER: Failed to load documentation, using online fallback. Reason: xmlStream is null.
+Jun 28, 2015 3:14:23 PM com.rapidminer.gui.OperatorDocLoader parseDocumentForOperator
+WARNING: Could not open http://rapid-i.com/wiki/index.php?title=Prules:LVQ: http://rapid-i.com/wiki/index.php?title=Prules:LVQ
+Jun 28, 2015 3:14:23 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter measure_types is not set. Using default (MixedMeasures).
+Jun 28, 2015 3:14:23 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter mixed_measure is not set. Using default (MixedEuclideanDistance).
+Jun 28, 2015 3:14:26 PM com.rapidminer.gui.OperatorDocToHtmlConverter convert
+FINER: Failed to load documentation, using online fallback. Reason: xmlStream is null.
+Jun 28, 2015 3:14:40 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter logfile is not set. Using default ().
+Jun 28, 2015 3:14:40 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter resultfile is not set. Using default ().
+Jun 28, 2015 3:14:40 PM com.rapidminer.tools.WrapperLoggingHandler log
+INFO: No filename given for result file, using stdout for logging results!
+Jun 28, 2015 3:14:40 PM com.rapidminer.Process run
+INFO: Process //Test Repository/glvq_test starts
+Jun 28, 2015 3:14:40 PM com.rapidminer.Process loadInitialData
+INFO: Loading initial data.
+Jun 28, 2015 3:14:41 PM com.rapidminer.example.table.MemoryExampleTable addAttribute
+FINE: Resizing example table from 35 to 46 columns.
+Jun 28, 2015 3:14:41 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter comparator_class is not set. Using default ().
+Jun 28, 2015 3:14:42 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter comparator_class is not set. Using default ().
+Jun 28, 2015 3:14:42 PM com.rapidminer.Process saveResults
+INFO: Saving results.
+Jun 28, 2015 3:14:42 PM com.rapidminer.Process run
+INFO: Process //Test Repository/glvq_test finished successfully after 2 s
+Jun 28, 2015 3:14:42 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter criterion is not set. Using default ().
+Jun 28, 2015 3:14:42 PM com.rapidminer.parameter.Parameters getParameter
+FINER: Parameter criterion is not set. Using default ().
+Jun 28, 2015 3:14:51 PM com.rapidminer.RepositoryProcessLocation store
+INFO: Saved process definition at //Test Repository/glvq_test.
+Jun 28, 2015 3:14:51 PM com.rapidminer.gui.RapidMinerGUI$ShutdownHook run
+INFO: Running shutdown sequence.
+Jun 28, 2015 3:14:51 PM com.rapidminer.gui.ApplicationPerspectives saveAll
+CONFIG: Saving perspectives.
+Jun 28, 2015 3:14:51 PM com.rapidminer.tools.usagestats.UsageStatistics save
+CONFIG: Saving operator usage.
+Jun 28, 2015 3:14:51 PM com.rapidminer.tools.usagestats.UsageStatistics save
+WARNING: Cannot save operator usage statistics: org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: An invalid or illegal XML character is specified. 
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: An invalid or illegal XML character is specified. 
+	at com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createElement(CoreDocumentImpl.java:622)
+	at com.rapidminer.tools.usagestats.OperatorUsageStatistics.getXML(OperatorUsageStatistics.java:67)
+	at com.rapidminer.tools.usagestats.UsageStatistics.getXML(UsageStatistics.java:283)
+	at com.rapidminer.tools.usagestats.UsageStatistics.save(UsageStatistics.java:296)
+	at com.rapidminer.gui.RapidMinerGUI$ShutdownHook.run(RapidMinerGUI.java:217)
+	at com.rapidminer.RapidMiner.quit(RapidMiner.java:804)
+	at com.rapidminer.gui.MainFrame.exit(MainFrame.java:1566)
+	at com.rapidminer.gui.MainFrame.windowClosing(MainFrame.java:1597)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2058)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2017)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+

@@ -1,0 +1,66 @@
+
+<project name="RapidMiner_Plugin_PRules_Vega" default="install">
+    <description>Build file for the RapidMiner PRules Extension</description>
+
+    <property name="rm.dir" location="D:/Marcin/Projects/Java/Common/RapidMiner/5.x/RapidMiner" />
+
+    <property name="build.build" location="build" />
+    <property name="build.resources" location="resources" />
+    <property name="build.lib" location="lib" />
+
+    <property name="check.sources" location = "src" />
+	
+    <property name="javadoc.targetDir" location="javadoc" />
+
+    <property name="extension.name" value="PRules" />
+    <property name="extension.name.long" value="RapidMiner PRules Extension" />
+    <property name="extension.namespace" value="prules" />
+    <property name="extension.vendor" value="MB" />
+    <property name="extension.admin" value="Marcin Blachnik" />
+    <property name="extension.url" value="http://www.prules.org" />
+
+
+    <property name="extension.needsVersion" value="5.1" />
+    <property name="extension.dependencies" value="" />
+
+    <property name="extension.initClass" value="com.rapidminer.PluginInitPRules" />
+    <property name="extension.objectDefinition" value="/com/rapidminer/resources/ioobjectsPRules.xml" />
+    <property name="extension.operatorDefinition" value="/com/rapidminer/resources/OperatorsPRules.xml" />
+    <property name="extension.parseRuleDefinition" value="/com/rapidminer/resources/parserulesPRules.xml" />
+    <property name="extension.groupProperties" value="/com/rapidminer/resources/groupsPRules.properties" />
+    <property name="extension.errorDescription" value="/com/rapidminer/resources/i18n/ErrorsPRules" />
+    <property name="extension.userErrors" value="/com/rapidminer/resources/i18n/UserErrorMessagesPRules.properties" />
+    <property name="extension.guiDescription" value="/com/rapidminer/resources/i18n/GUIPRules.properties" />
+
+ 
+	<!-- Src files -->
+    <path id="build.sources.path">
+        <dirset dir="src">
+            <include name="**" />
+        </dirset>
+    </path>
+    <fileset dir="src" id="build.sources">
+        <include name="**/*.java" />
+    </fileset>
+    <fileset id="build.dependentExtensions" dir="..">
+        <exclude name="**/*"/>		
+    </fileset>
+
+    <import file="${rm.dir}/build_extension.xml" />
+        
+        
+    <target name="run" depends="install" unless="lock.isRun" description="Run RM after building">
+        <echo message="RapidMiner: Run with Java from: ${java.home}" />
+        <echo message="RapidMiner: using Java version: ${java.version}" />
+        <java 
+           jar="${rm.dir}/lib/rapidminer.jar"
+           fork="true"
+           failonerror="true"
+           maxmemory="400m">
+            <jvmarg value="-Duser.home=d:\\Marcin\\Projects\\Java\\Common\\home" />
+            <jvmarg value="-Djava.util.logging.config.file=ispr.properties" />
+        </java>
+
+        <property name="lock.isRun" value="true" />
+    </target>
+</project>
